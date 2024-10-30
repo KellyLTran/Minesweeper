@@ -1,7 +1,8 @@
 # 💣 Minesweeper Clone
 
-### 🔍 Project Overview
 **Minesweeper Clone** is a desktop game developed in C++ using the SFML library. It incorporates a customizable game board where users can select board dimensions and set the bomb count, creating varying levels of difficulty. The game’s objective is to reveal all tiles without detonating any hidden bombs.
+
+---
 
 ### ⚙️ Functionality
 - **Customizable Game Board**: Users can set board dimensions and bomb count, creating multiple difficulty levels.
