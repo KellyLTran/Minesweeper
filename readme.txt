@@ -1,18 +1,16 @@
-System: Windows
-Compiler: Visual Studio
-SFML version: Visual C++ 15 (2017) - 64-bit
-IDE: Visual Studio
+# 💣 Minesweeper Clone
 
-Functionality:
-The customizable game board allows users to choose board dimensions and bomb count, which offer varying levels of difficulty
-Clicking on a tile without a bomb triggers the automated reveal of adjacent tiles, and exposed cells display the number of adjacent mines
-The user must uncover all the cells on a grid without triggering hidden mines
-Users can track their progress with an active timer and flag tiles that they think contain bombs.
+### 🔍 Project Overview
+**Minesweeper Clone** is a desktop game developed in C++ using the SFML library. It incorporates a customizable game board where users can select board dimensions and set the bomb count, creating varying levels of difficulty. The game’s objective is to reveal all tiles without detonating any hidden bombs.
 
-Program Structure:
-The game employs the Model-View-Controller design, which involves separation of game logic, user interface, and data management.
-The 'Game' class centralizes key game operations, such as checking for wins/losses and updating the game state.
-'Board' class creates the game grid, while the 'Tile' class represents individual squares that can contain bombs or be empty.
+### ⚙️ Functionality
+- **Customizable Game Board**: Users can set board dimensions and bomb count, creating multiple difficulty levels.
+- **Tile Reveal Mechanism**: Clicking on a tile without a bomb triggers an automatic reveal of adjacent tiles, displaying the number of adjacent mines.
+- **Game Objective**: Players aim to uncover all grid cells without triggering any mines.
+- **Progress Tracking**: Includes an active timer and the ability to flag suspected bombs, allowing users to monitor their progress.
 
-Credits:
-The UF CISE Department provided resources and objectives for this project.
+### 🧩 Program Structure
+- **Model-View-Controller (MVC) Design**: Separates game logic, user interface, and data management for structured gameplay.
+- **'Game' Class**: Manages key game operations, such as tracking wins/losses and updating game status.
+- **'Board' Class**: Creates and manages the game grid layout.
+- **'Tile' Class**: Represents each square, which can either contain a bomb or be empty.
